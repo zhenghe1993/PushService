@@ -9,7 +9,7 @@ public class AsyncThread implements Runnable {
 
     @Override
     public void run() {
-
+//         开始
     }
 
 
