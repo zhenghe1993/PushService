@@ -45,7 +45,6 @@ public class AsyncServletContextListener implements ServletContextListener {
             }
         }).start();
 
-
     }
 
     @Override
