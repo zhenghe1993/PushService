@@ -28,7 +28,6 @@ public class AsyncServletContextListener implements ServletContextListener {
             @Override
             public void run() {
                 try {
-
                     while (true) {
                         synchronized (this) {
                             Thread.sleep((int) (Math.random() * 10000));
